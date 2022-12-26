@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+svg{
+    position: fixed;
+    height: 90%;
+    max-width: 80%;
+    top: 5%;
+    left: 10%;
+}
+
+section{
+    height: 100vh;
+    display: grid;
+    text-align: right;
+    font-size: 4rem;
+    padding: 10px;
+}
+
+section:nth-of-type(2){
+    background-color: rgb(218, 191, 243);
+}
+
+.sectionDiv{
+    width: 100%;
+}
+
+.sectionDiv1{
+    width: 45%;
+    height: 100vh;
+    float: left;
+}
+
+.sectionDiv2{
+    width: 55%;
+    height: 100vh;
+    float: left;
+}
+
+svg path {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    stroke-width: 3;
+    stroke: #000;
+    fill: none;
+    transition: stroke-dashoffset s;
+}
